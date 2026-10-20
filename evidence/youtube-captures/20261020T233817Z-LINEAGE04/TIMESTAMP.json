@@ -1,0 +1,10 @@
+{
+  "rfc3161": {
+    "status": "ok",
+    "tsr": "MANIFEST.json.tsr",
+    "tsr_sha256": "eed645511e7a38e1ce165db79258e74a03b83574074a617e0fd641e510b529a5",
+    "tsa": "https://freetsa.org/tsr",
+    "verify": "openssl ts -reply -in MANIFEST.json.tsr -text"
+  },
+  "manifest_sha256": "50a795dd878121a2cc95c8e517ee9aaa2f6d3321f2119a9771c18f33cf20f02f"
+}

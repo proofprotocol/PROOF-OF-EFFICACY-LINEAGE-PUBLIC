@@ -2,7 +2,7 @@
 
 | Field | Value |
 |---|---|
-| Version | 1.0.0 |
+| Version | 1.1.0 |
 | Date | 2026-10-20 |
 | Author | Craig Thomas Ellrod (ORCID 0009-0004-1058-7666) |
 | Status | Record |
@@ -13,7 +13,7 @@ This repository records, with dates that can be checked, the lineage of proof of
 
 ## 2. Redaction rule
 
-1. Vendors and customers are named by letter (Vendor A, Vendor B, ...) in order of first appearance. The mapping is held in the private record.
+1. Vendors and customers are named by letter (Vendor A, Vendor B, ...) in order of first appearance, unless the vendor has agreed to be named. The mapping is held in the private record. Spyderbat is named with its consent (version 1.1.0).
 2. A private repository is shown by its owner and first-commit hash; a name that contains a vendor name is withheld.
 3. A withheld file is shown by an evidence ID, its SHA-256, its byte size and its file time. Its path is held in the private record.
 4. Nothing is redacted that a reader needs to check a public source.

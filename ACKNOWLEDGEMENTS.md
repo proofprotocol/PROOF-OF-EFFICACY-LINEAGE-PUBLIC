@@ -10,7 +10,7 @@ Applies to: TIMELINE.md, 2007
 [/END OF ACKNOWLEDGED]
 
 [ACKNOWLEDGED]
-Name: Vendor C product leader (named with consent only)
+Name: Spyderbat product leader (named with consent only)
 Contribution: Stated, in a 2023 testimonial, the problem of scripted demos "knowing the answer"
 Applies to: TIMELINE.md, 2023
 [/END OF ACKNOWLEDGED]
