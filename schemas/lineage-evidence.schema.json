@@ -1,0 +1,57 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/proofprotocol/PROOF-OF-EFFICACY-LINEAGE-PUBLIC/schemas/lineage-evidence.schema.json",
+  "title": "Lineage evidence manifest",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+      "id",
+      "group",
+      "ext",
+      "bytes",
+      "sha256",
+      "file_mtime_utc",
+      "dropbox_server_copy_utc",
+      "dropbox_content_hash_match"
+    ],
+    "properties": {
+      "id": {
+        "type": "string",
+        "pattern": "^EV-[A-Z]-[0-9]{4}$"
+      },
+      "group": {
+        "type": "string"
+      },
+      "ext": {
+        "type": "string"
+      },
+      "bytes": {
+        "type": "integer",
+        "minimum": 0
+      },
+      "sha256": {
+        "type": "string",
+        "pattern": "^[0-9a-f]{64}$"
+      },
+      "file_mtime_utc": {
+        "type": "string",
+        "format": "date-time"
+      },
+      "dropbox_server_copy_utc": {
+        "type": [
+          "string",
+          "null"
+        ],
+        "format": "date-time"
+      },
+      "dropbox_content_hash_match": {
+        "type": [
+          "boolean",
+          "null"
+        ]
+      }
+    }
+  }
+}
